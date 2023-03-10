@@ -1,0 +1,2 @@
+../Core/Src/STM32_Keypad4x4.c:36:13:Check_Keypad_Column	16	static
+../Core/Src/STM32_Keypad4x4.c:62:6:KEYPAD_Read	16	static
