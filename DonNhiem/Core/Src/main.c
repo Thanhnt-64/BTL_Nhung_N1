@@ -577,12 +577,12 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
     if(GPIO_Pin == GPIO_PIN_11) // If The INT Source Is EXTI Line9 (A9 Pin)
     {
-    	st[0]= st[0] + 500;
+    	st[1]= st[1] + 500;
     	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_7);
     }
     if(GPIO_Pin == GPIO_PIN_12) // If The INT Source Is EXTI Line9 (A9 Pin)
         {
-        	st[1]= st[1] + 500;
+        	st[2]= st[2] + 500;
         	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_7);
      }
 }
